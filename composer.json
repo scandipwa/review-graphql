@@ -1,0 +1,20 @@
+{
+    "name": "scandipwa/review-graphql",
+    "description": "Review specific modifications for ScandiPWA",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/framework": "*",
+        "magento/module-review-graph-ql": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\ReviewGraphQl\\": ""
+        }
+    }
+}
